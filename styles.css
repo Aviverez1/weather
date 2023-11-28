@@ -1,0 +1,116 @@
+body {
+    font-family: 'Libre Baskerville', 'Merriweather', cursive;
+    background: #222;
+    display: flex;
+    justify-content: center;
+}
+.bigContainer{
+    width: 90%;
+    max-width: 500px;
+    max-height: 1700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(200deg, rgb(133, 187, 249), rgb(61, 163, 134));
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 150px 150px;
+    grid-row-gap: 20px;
+    grid-column-gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#cityForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.deg{
+   font-size: 4rem;  
+   margin: 0px;
+}
+.dataGif{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    border-radius: 15px;
+}
+.dataGif img{
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+    width: 50px;
+}
+.description{
+    padding: 15px;
+    border-radius: 15px;
+}
+.degAndDis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Adjust values as needed */
+    padding: 15px;
+    border-radius: 15px;
+    margin: 15px;
+    width: 300px;
+}
+#newCity{
+    border-radius: 15px;
+    width: 200px;
+}
+#Search{
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+#Search.shrinked {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+p{
+    margin-bottom: 0px;
+}
+.weatherGif{
+    width: 80px;
+    border-radius: 40px;
+}
+.weatherAni{
+    display: flex;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+.insert{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+.feelsLike{
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+.realFeel{
+    font-size: 1.7rem;
+}
+

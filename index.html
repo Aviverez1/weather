@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather app</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Edu+TAS+Beginner:wght@500&family=Kdam+Thmor+Pro&family=Libre+Baskerville&family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="bigContainer">
+        <form id="cityForm">
+            <input type="text" id="newCity" placeholder="  Enter a city" style="height: 20px;">
+            <button type="button" id="Search" onclick="shrinkAndGrow()"><img src="./images/search.png" style="width: 15px; padding: 3px; margin: 0;" alt=""></button>
+        </form>
+        <div class="degAndDis">
+            <h1>vienna</h1> <!--later i will change the inner html by the city searched-->
+            <p class="deg">25</p>
+            <h3 class="shortDescription"></h3>
+        </div>
+        <div class="weatherAni">
+            <img src="" alt="gif" class="weatherGif">
+            <p class="description"></p>
+        </div>
+        <div class="gridContainer">
+            <div class="dataGif">
+                <img src="./images/humidity.gif" alt="humid">
+                <p>humidity</p>
+                <p class="humidity insert"></p>
+            </div>
+            <div class="dataGif">
+                <img src="./images/wind.gif" alt="wind">
+                <p>wind-speed</p>
+                <p class="wind insert"></p>
+            </div>
+           <div class="dataGif">
+                <img src="./images/Max.gif" alt="max">
+                <p>max</p>
+                <p class="max insert"></p>
+           </div>
+           <div class="dataGif">
+                <img src="./images/Min.gif" alt="min">
+                <p>min</p>
+                <p class="min insert"></p>
+            </div>
+        </div>
+        <div class="feelsLike dataGif">
+            <img src="" alt="" class="feelGif" style="width: 80px;">
+            <p style="font-size: 1.1rem;">Real feel</p>
+            <p class="realFeel insert" style="margin-top: 20px;"></p>
+        </div>
+    </div>
+    
+    <script src="index.js" defer></script>
+
+</body>
+</html>
